@@ -25,6 +25,11 @@ the original "source" files, but they are bad because they are in a proprietary
 format. The GDAL library can read these MrSID files when combined with the
 libraries provided by the vendor. Refer to [the instructions](http://trac.osgeo.org/gdal/wiki/MrSID).
 
+# Dependencies
+To run these script you will require the following (Debian package names listed)
+
+    libswitch-perl, libhtml-tableextract-perl, wget, make
+
 # Special Request to the NSW Department of Lands
 Please release all these map photographs and collection metadata under a free
 license. You already make them available through your website for zero change,
