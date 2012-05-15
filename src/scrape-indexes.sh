@@ -42,7 +42,7 @@ for qa in A B E G I L M N O R U ; do
     echo "PH $qa$qb"
     wget -O $wd/parish-query/$qa$qb.html "http://parishmaps.lands.nsw.gov.au/search/pmap_websearch.query?mname=$qa$qb&mtype=PH"
     ret=$?
-    [ $ret == 0 ] || echo "Search failed on $q"
+    [ $ret == 0 ] || echo "Search failed on $qa$qb"
   done
 done
 
