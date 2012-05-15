@@ -15,7 +15,8 @@ better front end to the maps.
 Currently you should be able to just run `make` and you should end up with a
 simple CSV index of the collection and a directory of .sid files. This process
 can take (assuming no errors arise) anywhere from several hours to several days,
-and consume roughly 83GB of network download and disk space.
+and consume roughly 83GB of network download and disk space. (creating the
+collection index alone will take a few hours)
 
 Since the Department of Lands can change their web service at any time these
 scripts may break.
@@ -32,7 +33,7 @@ To run these script you will require the following (Debian package names listed)
 
 # Special Request to the NSW Department of Lands
 Please release all these map photographs and collection metadata under a free
-license. You already make them available through your website for zero change,
+license. You already make them available through your website for zero charge,
 so changing the license won't affect your revenue stream.
 
 Changing the license will allow other parties to do useful things with these
